@@ -19,7 +19,7 @@
   <!--    假条信息展示   -->
   <el-table :data="tableData" :border="true" @selection-change="handleSelectionChange">
     <el-table-column type="selection" width="55"></el-table-column>
-    <el-table-column prop="id" label="Id" width="140">
+    <el-table-column prop="id" label="Id" width="40">
     </el-table-column>
     <el-table-column prop="name" label="User Name" width="120">
     </el-table-column>
@@ -44,7 +44,7 @@
     </el-table-column>
     <el-table-column label="">
       <template slot-scope="scope">
-        <div v-if="scope.row.status===1">
+        <div v-if="scope.row.status===1" style="width: 190px">
         <el-button size="mini" type="success" @click="handleAggree(scope.row.id)">Agree</el-button>
         <el-button size="mini" type="warning" @click="handleRefuse(scope.row.id)">Refuse</el-button>
         </div>
