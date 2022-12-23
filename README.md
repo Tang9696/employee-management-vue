@@ -65,7 +65,8 @@ Leaves management page
 - Personal Information Management
 
 ## Importing the project
-The project is created with idea, you can directly import it into idea
+The project is created with idea, you can directly import it into idea.
+If someone is still using Eclipse, you can also directly import.
 
 ## Build Setup
 
