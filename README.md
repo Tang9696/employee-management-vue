@@ -5,7 +5,7 @@ The project is an enterprise employee management system 1.0, using springboot + 
 
 (1)Front and back-end use json data format interaction, to achieve front and back-end separation.
 
-## Front-end technology stack
+## Front-end technology stack
 
 1. Vue
 2. ElementUI
@@ -15,20 +15,57 @@ The project is an enterprise employee management system 1.0, using springboot + 
 6. WebSocket
 7. Echarts
 
-## Project Demo Address
+## Project Demo Address
 
 The project is not uploaded to the server at the moment
 
-## Project Address
+## Project Address
 
 [GitHub - Tang9696/employee-management-vue](https://github.com/Tang9696/employee-management-vue.git)
 
-## Project Screenshot
+## Project Screenshot
 
 Landing Page
-C:\Users\83941\AppData\Roaming\marktext\images\2022-12-23-23-42-22-image.png
+![image](https://user-images.githubusercontent.com/95304937/209405535-f1a1e718-e87d-48d9-8b51-60460c0b2617.png)
 
-> A Vue.js project
+Profile
+![image](https://user-images.githubusercontent.com/95304937/209405510-b645bca5-0f88-41f2-a712-2e7a7c49ca85.png)
+
+User management page
+![image](https://user-images.githubusercontent.com/95304937/209405470-440b4000-20bb-4b61-8681-b6fd2eeb80de.png)
+
+Leaves management page
+![image](https://user-images.githubusercontent.com/95304937/209405395-4c87c885-9c33-4e3d-a509-26e10980aa10.png)
+
+## Project Function
+
+### Administrator section
+
+- Login/ Logout
+  
+- User Management
+  
+- Department Management
+  
+- Leave Management
+  
+- Attendance Management
+  
+- Role assignment
+  
+
+### User section
+
+- Login / Logout
+  
+- Personal leave management
+  
+- Personal Attendance Management
+  
+- Personal Information Management
+
+## Importing the project
+The project is created with idea, you can directly import it into idea
 
 ## Build Setup
 
